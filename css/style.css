@@ -1,0 +1,160 @@
+/* ../fonts */
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../fonts/poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url("../fonts/inter/Inter_24pt-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inter Bold";
+    src: url("../fonts/inter/Inter_24pt-Bold.ttf") format("truetype");
+}
+
+:root {
+    --bs-white: #F7F7F9;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212121;
+    --bs-primary: #2E2E2F;
+    --bs-secondary: #2E2E2F;
+    --bs-success: #198754;
+    --bs-info: var(--bs-body-color);
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #ffffff;
+    --bs-dark: #2E2E2F;
+    --bs-primary-rgb: 33, 33, 33;
+    --bs-secondary-rgb: 333, 333, 333;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 255, 255, 255;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 46, 46, 47;
+    --bs-primary-text-emphasis: #212121;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: var(--bs-body-color);
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+    --bs-info-bg-subtle: #cff4fc;
+    --bs-warning-bg-subtle: #fff3cd;
+    --bs-danger-bg-subtle: #f8d7da;
+    --bs-light-bg-subtle: #fcfcfd;
+    --bs-dark-bg-subtle: #ced4da;
+    --bs-primary-border-subtle: #9ec5fe;
+    --bs-secondary-border-subtle: #c4c8cb;
+    --bs-success-border-subtle: #a3cfbb;
+    --bs-info-border-subtle: var(--bs-secondary-bg);
+    --bs-warning-border-subtle: #ffe69c;
+    --bs-danger-border-subtle: #f1aeb5;
+    --bs-light-border-subtle: #e9ecef;
+    --bs-dark-border-subtle: #adb5bd;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-font-serif: "Times New Roman", Times, Baskerville, "Times New Roman", "Baskerville Serif", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-sans-serif: "Inter Regular", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: "Roboto Mono Regular", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: none;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1.1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212121;
+    --bs-body-color-rgb: 33, 33, 33;
+    --bs-body-bg: #ffffff;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-emphasis-color: #212121;
+    --bs-emphasis-color-rgb: 333, 333, 333;
+    --bs-secondary-color: rgba(33, 33, 33, 1);
+    --bs-secondary-color-rgb: 33, 33, 33;
+    --bs-secondary-bg: #212121;
+    --bs-secondary-bg-rgb: 333, 333, 333;
+    --bs-tertiary-color: #99999A;
+    --bs-tertiary-color-rgb: 33, 37, 41;
+    --bs-tertiary-bg: #e6e6e6;
+    --bs-tertiary-bg-rgb: 230, 230, 230;
+    --bs-heading-color: inherit;
+    --bs-link-color: #743795;
+    --bs-link-color-rgb: 116, 55, 149;
+    --bs-link-decoration: underline;
+    --bs-link-hover-color: #743795;
+    --bs-link-hover-color-rgb: 116, 55, 149;
+    --bs-link-visited-color: #743795;
+    --bs-code-color: #d63384;
+    --bs-highlight-color: #212529;
+    --bs-highlight-bg: #fff3cd;
+    --bs-border-width: 1px;
+    --bs-border-style: solid;
+    --bs-border-color: #d0d0d3;
+    --bs-border-color-translucent: rgba(333, 333, 333, 0.15);
+    --bs-border-radius: 0rem;
+    --bs-border-radius-sm: 0rem;
+    --bs-border-radius-lg: 0rem;
+}
+
+
+a {
+    color: var(--bs-link-color);
+    text-decoration: var(--bs-link-decoration);
+}
+
+a:hover {
+    color: var(--bs-link-hover-color);
+    text-decoration: var(--bs-link-hover-decoration);
+}
+
+a:visited {
+    color: var(--bs-link-active-color);
+}
+
+h1, h2, h3 {
+    color: var(--bs-dark) !important;
+    font-family: "Poppins Bold", sans-serif !important;
+    line-height: inherit;
+}
+
+.lead {
+    font-family: "Poppins Regular", sans-serif !important;
+}
+
+.btn-primary, a.btn-primary, a.btn-primary:visited {
+    background-color: var(--bs-link-color) !important;
+    color: var(--bs-white) !important;
+    border-color: var(--bs-link-color) !important;
+    font-family: "Inter Bold", sans-serif !important;
+}
+
+.btn-primary:hover, a.btn-primary:hover {
+    color: var(--bs-white) !important;
+    background-color: var(--bs-link-color) !important;
+    border-color: var(--bs-link-color) !important;
+    font-family: "Inter Bold", sans-serif !important;
+}
+
+.fa-regular {
+    color: var(--bs-link-color) !important;
+}
