@@ -2,4 +2,4 @@
 
 Official Humans of Public Service documentation.
 
-[docs.humansofpublicservice.org](https//:docs.humansofpublicservice.org))
+Website: [docs.humansofpublicservice.org](https//:docs.humansofpublicservice.org)
